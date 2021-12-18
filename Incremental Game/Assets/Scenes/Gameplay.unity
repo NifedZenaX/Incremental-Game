@@ -337,6 +337,9 @@ MonoBehaviour:
     UnlockCost: 0
     UpgradeCost: 1
     Output: 2
+  ResourcesSprites:
+  - {fileID: 21300000, guid: d450a4a4712b5f14b991decc55c712c7, type: 3}
+  - {fileID: 21300000, guid: 8ca8f2f9d4c86834580619354e4a53fc, type: 3}
   ResourcesParent: {fileID: 348204403}
   ResourcePrefab: {fileID: 1786421785649366945, guid: 3f494709a7c64e144899366fba22df41,
     type: 3}
@@ -734,8 +737,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.6, y: 1}
-  m_AnchoredPosition: {x: 160, y: 0}
-  m_SizeDelta: {x: -480, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &935816429
 MonoBehaviour:
@@ -1083,7 +1086,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1908683678}
   m_HandleRect: {fileID: 1908683677}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
